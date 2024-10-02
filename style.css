@@ -1,0 +1,151 @@
+* {
+    margin: 0px;
+    padding: 10px;
+
+}
+
+body {
+    background-color: rgba(145, 178, 208, 0.771);
+    margin: 10px;
+    padding: 20px;
+}
+
+header {
+    background-color: rgb(14, 127, 227);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: space-around;
+}
+
+nav .logo {
+    color: white;
+    padding: 5px;
+}
+
+.logo:hover {
+    border: 2px solid yellow;
+    color: red;
+    border-radius: 10px;
+}
+
+nav .skill {
+    height: 200px;
+    display: inline;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    word-spacing: 2px;
+    margin: 15px;
+
+
+}
+
+.skill:hover {
+    border: 2px solid rgb(233, 222, 6);
+    border-radius: 10px;
+    color: red;
+    cursor: pointer
+}
+
+img {
+    height: 200px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+img:hover {
+    border: 3px solid orange;
+    cursor: pointer;
+}
+
+#para {
+    margin-left: 20px;
+    margin: 30px;
+    text-transform: lowercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fa-brands:hover {
+    border: 3px solid orangered;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 50%;
+}
+
+.icon #facebook {
+    background-color: #1877F2;
+    color: white;
+    margin: 15px;
+    border-radius: 40%;
+}
+
+.icon #instagram {
+    background-color: #e1306c;
+    color: white;
+    margin: 15px;
+    border-radius: 40%;
+}
+
+.icon #tewiter {
+    background-color: #1da1f2;
+    margin: 15px;
+    color: white;
+    border-radius: 40%;
+}
+
+.icon #linkedin {
+    background-color: #2867b2;
+    color: white;
+    margin: 15px;
+    border-radius: 40%;
+}
+
+.icon #youtube {
+    background-color: #ff0000;
+    margin: 15px;
+    color: white;
+    border-radius: 40%;
+}
+
+.icon #telegram {
+    background-color: #0088CC;
+    margin: 15px;
+    color: white;
+    border-radius: 40%;
+}
+
+footer {
+    margin: 10px;
+    color: white;
+
+}
+
+footer #btn1 {
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 30px;
+    color: white;
+}
+
+footer #btn2 {
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+#btn2:hover {
+    border: 2px solid rgb(220, 14, 14);
+    cursor: pointer;
+}
+
+#btn1:hover {
+    border: 2px solid rgb(198, 223, 10);
+    cursor: pointer;
+}
